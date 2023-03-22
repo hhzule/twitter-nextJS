@@ -126,7 +126,12 @@ flex-col
 gap-2
 p-10
 ">
-<Button disabled={disabled} label={actionLabel} secondary fullWidth large onClick={handleSubmit}/>
+<Button 
+disabled={disabled} 
+label={actionLabel} 
+secondary fullWidth 
+large onClick={handleSubmit}/>
+{footer}
 </div>
 </div>
       </div>
