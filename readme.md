@@ -20,4 +20,9 @@ npm install bcrypt
 npm install -D @types/bcrypt
 npm install next-auth
 
-# timeStamp 1:22
+npm install swr
+npm install axios
+
+npm install react-hot-toast
+
+# timeStamp 1:42
