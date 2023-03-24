@@ -4,8 +4,8 @@
             import Input from '../Input'
             import Modal from '../Modal'
             import axios from "axios";
-import { toast } from 'react-hot-toast'
-import {signIn } from "next-auth/react"
+            import { toast } from 'react-hot-toast'
+            import {signIn } from "next-auth/react"
 
 
             const RegisterModal = () => {
@@ -79,7 +79,8 @@ import {signIn } from "next-auth/react"
             />
             <Input
             placeholder='Password'
-            onChange={(e) => setEmail(e.target.value)}
+            type='password'
+            onChange={(e) => setPassword(e.target.value)}
             value={password}
             disabled={isLoading}
             />
