@@ -1,5 +1,5 @@
             import useLoginModal from '@/hooks/useLoginModal'
-            import useRegisterModal from '@/hooks/useregister'
+            import useRegisterModal from '@/hooks/useRegisterModal'
             import React, { useCallback, useState } from 'react'
             import Input from '../Input'
             import Modal from '../Modal'

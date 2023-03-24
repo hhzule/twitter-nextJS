@@ -24,5 +24,9 @@ npm install swr
 npm install axios
 
 npm install react-hot-toast
+npm install react-spinners
 
-# timeStamp 1:42
+npm install date-fns
+npm install react-dropzone
+
+# timeStamp 2:26
